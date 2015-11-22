@@ -1,3 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no, email=no" />
+<meta name="x5-orientation" content="portrait" />
+<meta name="x5-fullscreen" content="true" />
+<meta name="x5-page-mode" content="app" />
+<title>Spring is a blog engine written by github issues</title>
+<link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57x57.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144x144.png" />
+<link rel="apple-touch-startup-image" href="img/apple-touch-startup-image-320x460.png">
+<link rel="apple-touch-startup-image" href="img/apple-touch-startup-image-640x920.png" media="(-webkit-min-device-pixel-ratio: 2)">
+<link rel="apple-touch-startup-image" href="img/apple-touch-startup-image-640x1096.png" media="(device-height: 568px)">
+<link rel="stylesheet" href="dist/main.min.css" />
+<script src="dist/main.min.js"></script>
+<script>
 $.extend(spring.config, {
   // my blog title
   title: '陈旭华',
@@ -13,3 +35,23 @@ $.extend(spring.config, {
   pages: [
   ]
 })
+<!-- analysis begin // please delete it -->
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?a9787f0ab45d5e237bab522431d0a7ec";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+<!-- analysis end -->
+</head>
+<body>
+<!--[if lt IE 9]>
+<script>
+location.href = 'https://github.com/' + spring.config.owner + '/' + spring.config.repo + '/issues?page=1&state=open'
+</script>
+<![endif]-->
+</body>
+</html>
