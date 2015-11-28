@@ -1,5 +1,6 @@
-# <chenxuhua.github.io>
-# This is my GitHub Pages.
+# Welcome to my GitHub Pages
+
+### <http://chenxuhua.github.io/>
 
 # This Blog using Spring Blog Engine
 
